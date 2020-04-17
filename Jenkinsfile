@@ -19,7 +19,7 @@ pipeline{
 			//			branch: "master",
 			//			url: "https://github.com/Manoha1g/mvn_SHconstruction.git"
 			//		)
-					checkout-stage
+					checkout-stage()
 					echo "Checkout completed ...."
 				}
 			}
